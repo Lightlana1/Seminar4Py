@@ -7,13 +7,13 @@
 
 k = int(input('Введите степень многочлена от 1 до 6: '))
 import random
-a = int(random.uniform(0, 10))
-b = int(random.uniform(0, 10))
-c = int(random.uniform(0, 10))
-d = int(random.uniform(0, 10))
-e = int(random.uniform(0, 10))
-f = int(random.uniform(0, 10))
-n = int(random.uniform(0, 10))
+a = int(random.uniform(0, 100))
+b = int(random.uniform(0, 100))
+c = int(random.uniform(0, 100))
+d = int(random.uniform(0, 100))
+e = int(random.uniform(0, 100))
+f = int(random.uniform(0, 100))
+n = int(random.uniform(0, 100))
 print(a, b, c, d, e, f, n)
 str = []
 if k == 6:
